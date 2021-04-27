@@ -15,6 +15,7 @@ class CreateMandorsTable extends Migration
     {
         Schema::create('mandors', function (Blueprint $table) {
             $table->id();
+            
             $table->timestamps();
         });
     }
